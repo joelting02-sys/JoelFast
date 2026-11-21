@@ -53,6 +53,26 @@ https://github.com/joelting02-sys/TDM-Fast/releases/download/v5.0.1-joel/JoelFas
 Get-FileHash .\JoelFastDownloader_5.0.1_x64.exe -Algorithm SHA256
 ```
 
+## 运行与隔离说明
+
+`v5.0.1-joel` 是**独立发行的一份副本**，与本机正在使用的原版 TDM Fast 完全隔离，互不影响：
+
+| 项目 | 原版 TDM Fast | JoelFast（本仓库发行版） |
+| --- | --- | --- |
+| 可执行文件 | `%LOCALAPPDATA%\TDM Fast\TDM Fast.exe` | 任意目录下的 `JoelFastDownloader_5.0.1_x64.exe` |
+| 数据目录 | `%LOCALAPPDATA%\com.freedidi.tdmfast` | `%LOCALAPPDATA%\com.joelting.joelapp` |
+| 注册表协议键 | `HKCU\Software\Classes\tdmfast` | `HKCU\Software\Classes\joelapp`（协议 `joelapp://`） |
+| 托盘 id | `tdm-tray` | `jfd-tray` |
+
+要点：
+
+- **可以与原版同时安装**，两者数据目录、协议键、托盘 id 全部独立；原版用户无需任何改动。
+- **不要同时运行**：两者都监听本机 `127.0.0.1:37651` 抓取端口，先关掉一个再启动另一个。
+- 该副本**未做 Authenticode 签名**（重打包后原厂签名已失效），Windows 可能显示 SmartScreen 提示。
+- 首次运行需要创建 WebView2 用户数据目录 `%LOCALAPPDATA%\com.joelting.joelapp\EBWebView`；
+  若该目录被系统策略阻止创建，程序会以 `Failed to setup app: Access is denied. (os error 5)` 退出。
+- 发行副本仅做品牌与标识重写，功能逻辑（多线程下载、浏览器插件回传、会员激活、FFmpeg 内核）未改动。
+
 ## License
 
 本仓库仅供本人设备重新安装使用。原厂 TDM Fast 是 LINGDU / NEXORA SOFTWARE 的商业软件，
