@@ -5,7 +5,6 @@
 | Tag | 璧勪骇 | 澶у皬 | SHA256 |
 | --- | --- | --- | --- |
 | `v5.0.1-joel` | `JoelFastDownloader_5.0.1_x64.exe` | 6,430,720 | `6033D73B379ED1905CDC568B731D208567B07D9B84B2E99FBF2166B9F47D67D8` |
-| `v5.0.1`锛堟棫锛?| `TDM_Fast_5.0.1_x64-portable.exe` | 6,478,136 | `08171D9E43C81422861472668311DD998D18A0539F845FB195EEBFBD7223120A` |
 
 `v5.0.1-joel` 鏄嚜鏈夊搧鐗?**JoelFast** 鐗堟湰锛屽熀浜庢湰鏈轰娇鐢ㄧ殑 TDM Fast 5.0.1 鏋勫缓锛?
 - 鏂囦欢鍚嶆敼涓?`JoelFastDownloader_5.0.1_x64.exe`
