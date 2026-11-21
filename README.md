@@ -1,4 +1,6 @@
-# JoelFast 5.0.1 鈥?Joel Desk Pro 涓嬭浇婧?
+﻿# JoelFast 5.0.1 鈥?Joel Desk Pro 涓嬭浇婧?
+
+> 仓库地址：<https://github.com/joelting02-sys/JoelFast>（原名 `TDM-Fast` 已改名为 `JoelFast`，旧链接会自动跳转）。
 鏈粨搴撴槸 **Joel Desk Pro** 妗岄潰绔€岄珮閫熶笅杞姐€嶅尯鍩熺殑涓嬭浇婧愩€?搴旂敤鍐呯殑銆屼粠 GitHub 涓嬭浇 JoelFast銆嶆寜閽細鐩存帴鎷夊彇鏈粨搴?Release 閲岀殑璧勪骇銆?
 ## Release
 
