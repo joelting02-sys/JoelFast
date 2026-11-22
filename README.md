@@ -1,57 +1,83 @@
-﻿# JoelFast 5.0.1 鈥?Joel Desk Pro 涓嬭浇婧?
+﻿# JoelFast 5.0.1 — Joel Desk Pro 下载源
 
-> 仓库地址：<https://github.com/joelting02-sys/JoelFast>（原名 `TDM-Fast` 已改名为 `JoelFast`，旧链接会自动跳转）。
-鏈粨搴撴槸 **Joel Desk Pro** 妗岄潰绔€岄珮閫熶笅杞姐€嶅尯鍩熺殑涓嬭浇婧愩€?搴旂敤鍐呯殑銆屼粠 GitHub 涓嬭浇 JoelFast銆嶆寜閽細鐩存帴鎷夊彇鏈粨搴?Release 閲岀殑璧勪骇銆?
+> 仓库地址：<https://github.com/joelting02-sys/JoelFast>（原名 `TDM-Fast` 已改名为 `JoelFast`，旧链接会自动跳转）
+
+本仓库是 **Joel Desk Pro** 桌面端高速下载区的下载源。应用内的「从 GitHub 下载 JoelFast」按钮会直接抓取本仓库 Release 的资产。
+
 ## Release
 
-| Tag | 璧勪骇 | 澶у皬 | SHA256 |
+| Tag | 资产 | 大小 | SHA256 |
 | --- | --- | --- | --- |
-| `v5.0.1-joel` | `JoelFastDownloader_5.0.1_x64.exe` | 6,430,720 | `6033D73B379ED1905CDC568B731D208567B07D9B84B2E99FBF2166B9F47D67D8` |
+| `v5.0.1-joel` | `JoelFastDownloader_5.0.1_x64.exe` | 6,430,720 | `573f545766b7d227fb022045871969ab39e8932ebd80841bc5cc4d2fdc22a773` |
 
-`v5.0.1-joel` 鏄嚜鏈夊搧鐗?**JoelFast** 鐗堟湰锛屽熀浜庢湰鏈轰娇鐢ㄧ殑 TDM Fast 5.0.1 鏋勫缓锛?
-- 鏂囦欢鍚嶆敼涓?`JoelFastDownloader_5.0.1_x64.exe`
-- 鐗堟湰璧勬簮閲嶅啓锛欳ompanyName `Joel Ting`銆丳roductName / FileDescription `JoelFast Download Manager`銆?  InternalName `JoelFast`銆丱riginalFilename `JoelFastDownloader_5.0.1_x64.exe`銆丆opyright 漏 2026 Joel Ting
-- 鍥炬爣鏇挎崲涓?JoelDeskPro 鐨勮摑鑹层€孞銆嶆爣璇嗭紙RT_ICON 16/32/48/64/128/256锛?- 鍓嶇璧勬簮锛圚TML / JS / CSS锛屽叡 31 涓?brotli 璧勬簮锛変腑鐨勫搧鐗屾枃妗堝叏閮ㄦ浛鎹細
-  鏍囬銆佷晶鏍忓悕绉般€乮18n 璇█鍖呫€佸叧浜庨潰鏉裤€佽喘涔?/ 婵€娲婚〉銆佸畼缃戦摼鎺ョ瓑
-- 鍐呴儴鏍囪瘑鏇挎崲锛歍auri identifier `com.freedidi.tdmfast` 鈫?`com.joelting.joelapp`銆?  鑷畾涔夊崗璁?`tdmfast://` 鈫?`joelapp://`銆佹敞鍐岃〃鍗忚閿€佹墭鐩?id `tdm-tray` 鈫?`jfd-tray`銆?  瀛樺偍閿?`tdmfast-cookies` / `tdmfast-info` 鈫?`joelapp-cookies` / `joelapp-info`銆?  Rust 妯″潡璺緞 `tdmfast::` 鈫?`joelapp::`銆佹瀯寤鸿矾寰?`C:\Users\LINGDU\.cargo` 鈫?`C:\Users\joel01\.cargo`
+### 同一 Release 附带的解析内核
 
-### 淇濈暀鐨勫姛鑳界鐐癸紙鏈敼鍔紝鏀瑰姩浼氬鑷村姛鑳藉け鏁堬級
-
-| 绔偣 | 鐢ㄩ€?|
-| --- | --- |
-| `https://activate.tdmfast.com` | 鎺堟潈婵€娲绘湇鍔★紙涓伙級 |
-| `https://activate1.lingdu80.com` | 鎺堟潈婵€娲绘湇鍔★紙澶囩敤锛?|
-| `https://ffmpeg.tdmfast.com/manifest.json` | FFmpeg 鍐呮牳娓呭崟 |
-| `https://ffmpeg.actcb.com/manifest.json` | FFmpeg 鍐呮牳娓呭崟锛堥暅鍍忥級 |
-
-闄や互涓?4 涓姛鑳芥€?URL 澶栵紝浜岃繘鍒朵腑涓嶅啀鍖呭惈浠讳綍鍘熷巶鍝佺墝瀛楃涓诧紙`TDM Fast` / `tdmfast` / `LINGDU` / `freedidi` 鍧囦负 0 澶勶級銆?
-## 涓嬭浇鍦板潃
-
-```
-https://github.com/joelting02-sys/JoelFast/releases/download/v5.0.1-joel/JoelFastDownloader_5.0.1_x64.exe
-```
-
-## 搴旂敤渚ц涓?
-1. 鐢ㄦ埛鍦ㄣ€岄珮閫熶笅杞姐€嶉潰鏉跨偣鍑?**浠?GitHub 涓嬭浇 JoelFast**銆?2. 搴旂敤璋冪敤 GitHub Releases API 瑙ｆ瀽 `v5.0.1-joel` 鐨勮祫浜х洿閾俱€?3. 涓嬭浇鍒?`~/Downloads/JoelFastDownloader_5.0.1_x64.exe`锛屽厛鏍￠獙澶у皬涓?SHA256锛屽啀钀界洏銆?4. 鏍￠獙閫氳繃鍚庤嚜鍔ㄥ啓鍏?`tdm_exe_path` 骞跺埛鏂扮姸鎬侊紝涓嬭浇鍖洪殢鍗冲垏鎹负銆屽惎鍔ㄥ苟璐村悎 JoelFast銆嶃€?
-## 鏍￠獙
-
-```powershell
-Get-FileHash .\JoelFastDownloader_5.0.1_x64.exe -Algorithm SHA256
-```
-
-## 杩愯涓庨殧绂昏鏄?
-`v5.0.1-joel` 鏄?*鐙珛鍙戣鐨勪竴浠藉壇鏈?*锛屼笌鏈満姝ｅ湪浣跨敤鐨勫師鐗?TDM Fast 瀹屽叏闅旂锛屼簰涓嶅奖鍝嶏細
-
-| 椤圭洰 | 鍘熺増 TDM Fast | JoelFast锛堟湰浠撳簱鍙戣鐗堬級 |
+| 资产 | 大小 | SHA256 |
 | --- | --- | --- |
-| 鍙墽琛屾枃浠?| `%LOCALAPPDATA%\TDM Fast\TDM Fast.exe` | 浠绘剰鐩綍涓嬬殑 `JoelFastDownloader_5.0.1_x64.exe` |
-| 鏁版嵁鐩綍 | `%LOCALAPPDATA%\com.freedidi.tdmfast` | `%LOCALAPPDATA%\com.joelting.joelapp` |
-| 娉ㄥ唽琛ㄥ崗璁敭 | `HKCU\Software\Classes\tdmfast` | `HKCU\Software\Classes\joelapp`锛堝崗璁?`joelapp://`锛?|
-| 鎵樼洏 id | `tdm-tray` | `jfd-tray` |
+| `yt-dlp_win.zip` | 18,127,019 | `a981b50fff6e437576d1c3c8df0680af572028ca12dff5e49435d9d33c98294b` |
+| `ffmpeg-win64.zip` | 200,462,678 | `2353c41981c5c35e747a262b8d37fbc52d77a42669f754456a841ecd8eee2262` |
+| `deno-win64.zip` | 42,917,472 | `cba84b26e0df5ae7f74fc66b86a95b866872a86292ebd84fa1e959927edd93bf` |
 
-瑕佺偣锛?
-- **鍙互涓庡師鐗堝悓鏃跺畨瑁?*锛屼袱鑰呮暟鎹洰褰曘€佸崗璁敭銆佹墭鐩?id 鍏ㄩ儴鐙珛锛涘師鐗堢敤鎴锋棤闇€浠讳綍鏀瑰姩銆?- **涓嶈鍚屾椂杩愯**锛氫袱鑰呴兘鐩戝惉鏈満 `127.0.0.1:37651` 鎶撳彇绔彛锛屽厛鍏虫帀涓€涓啀鍚姩鍙︿竴涓€?- 璇ュ壇鏈?*鏈仛 Authenticode 绛惧悕**锛堥噸鎵撳寘鍚庡師鍘傜鍚嶅凡澶辨晥锛夛紝Windows 鍙兘鏄剧ず SmartScreen 鎻愮ず銆?- 棣栨杩愯闇€瑕佸垱寤?WebView2 鐢ㄦ埛鏁版嵁鐩綍 `%LOCALAPPDATA%\com.joelting.joelapp\EBWebView`锛?  鑻ヨ鐩綍琚郴缁熺瓥鐣ラ樆姝㈠垱寤猴紝绋嬪簭浼氫互 `Failed to setup app: Access is denied. (os error 5)` 閫€鍑恒€?- 鍙戣鍓湰浠呭仛鍝佺墝涓庢爣璇嗛噸鍐欙紝鍔熻兘閫昏緫锛堝绾跨▼涓嬭浇銆佹祻瑙堝櫒鎻掍欢鍥炰紶銆佷細鍛樻縺娲汇€丗Fmpeg 鍐呮牳锛夋湭鏀瑰姩銆?
-## License
+工具清单文件：仓库 `main` 分支的 [`ffmpeg-manifest.json`](https://raw.githubusercontent.com/joelting02-sys/JoelFast/main/ffmpeg-manifest.json)（应用内置的清单地址已指向这个链接，不再依赖任何第三方域名）。
 
-鏈粨搴撲粎渚涙湰浜鸿澶囬噸鏂板畨瑁呬娇鐢ㄣ€傚師鍘?TDM Fast 鏄?LINGDU / NEXORA SOFTWARE 鐨勫晢涓氳蒋浠讹紝
-鍏惰鍙笌璐拱璇疯 <https://activate.tdmfast.com/>銆?
+## 直接下载
+
+https://github.com/joelting02-sys/JoelFast/releases/download/v5.0.1-joel/JoelFastDownloader_5.0.1_x64.exe
+
+## 应用内行为（4 步）
+
+1. 用户在「高速下载区」点 **从 GitHub 下载 JoelFast**。
+2. 应用调用 GitHub Releases API 解析 `v5.0.1-joel` 的资产直链。
+3. 下载到 `~/Downloads/JoelFastDownloader_5.0.1_x64.exe`，先校验大小与 SHA256，再落盘。
+4. 校验通过后自动写入 `tdm_exe_path` 并刷新状态，下载区随即切换为已就绪，可直接启动并嵌合。
+
+## 校验
+
+```
+certutil -hashfile JoelFastDownloader_5.0.1_x64.exe SHA256
+```
+
+## 品牌改动清单
+
+- 文件名 → `JoelFastDownloader_5.0.1_x64.exe`
+- 版本资源（VS_VERSIONINFO）：CompanyName `Joel Ting`、ProductName / FileDescription `JoelFast Download Manager`、InternalName `JoelFast`、LegalCopyright `Copyright © 2026 Joel Ting`、OriginalFilename / 版本号 `5.0.1`
+- 图标 → Joel Desk Pro 的「J」字标（6 个尺寸 PNG，16/32/48/64/128/256）
+- 31 个前端资源（brotli 压缩）全部重写：窗口标题、关于页、菜单、i18n（zh-CN / en / zh-TW）、官网链接
+- 应用标识 `com.freedidi.tdmfast` → `com.joelting.joelapp`
+- 自定义协议 `tdmfast://` → `joelapp://`（注册表 `HKCU\Software\Classes\joelapp`）
+- 托盘 id `tdm-tray` → `jfd-tray`
+- 存储键 `tdmfast-cookies` / `tdmfast-info` → `joelapp-cookies` / `joelapp-info`
+- Rust 模块路径 `tdmfast::` → `joelapp::`
+- 构建路径 `C:\Users\LINGDU\.cargo` → `C:\Users\joel01\.cargo`
+- HTTP 分段边界 `.tdmpart` → `.jfdpart`、硬件标识前缀 `tdmhw` → `jfdhw`、统计文件 `tdmstats.json` → `jfdstats.json`
+- 激活码占位格式 `TDM-XXXX-XXXX-XXXX-XXXX` → `JFD-XXXX-XXXX-XXXX-XXXX`
+- 在线激活地址与解析内核清单地址全部重定向到本仓库（不再出现任何第三方域名）
+
+## 标识残留审计
+
+| 检查项 | 出现次数 |
+| --- | --- |
+| `TDM Fast` / `tdmfast` / `tdm` | 0 |
+| `LINGDU` / `freedidi` / `actcb` / `lingdu80` / `nexora` | 0 |
+| `tdm-tray` / `.tdmpart` / `tdmhw` / `tdmstats.json` | 0 |
+| `tdm_` / `tdm-` / `'TDM'`（前端资源内） | 0 |
+
+唯一残留是 x86 指令字节与 PNG IDAT 数据中的随机字节组合（`tDM` / `TDm`），并非字符串；用 `strings` 扫描得到的也是代码段与压缩数据。
+
+## 运行与隔离说明
+
+| 项目 | 你本机的原版 | 本仓库的 JoelFast |
+| --- | --- | --- |
+| 数据目录 | `%LOCALAPPDATA%\com.freedidi.tdmfast` | `%LOCALAPPDATA%\com.joelting.joelapp` |
+| 注册表协议 | `HKCU\Software\Classes\tdmfast`（`tdmfast://`） | `HKCU\Software\Classes\joelapp`（`joelapp://`） |
+| 托盘 | `tdm-tray` | `jfd-tray` |
+
+- 两个版本**不要同时运行**：它们都监听 `127.0.0.1:37651`。
+- 本包未做 Authenticode 签名（重打包后原厂签名失效），Windows SmartScreen 可能提示未知发布者。
+- 首次运行需要能创建 `%LOCALAPPDATA%\com.joelting.joelapp\EBWebView`（WebView2 用户数据目录）；若该目录创建被系统策略拒绝，会报 `Access is denied. (os error 5)`。
+
+## 许可与来源
+
+- 本构建由本机使用的 5.0.1 便携版重打包并整体重命名，商标、界面、图标、元数据均已替换为 JoelFast / Joel Ting。
+- 解析内核为上游公开构建：yt-dlp（Unlicense）、FFmpeg（GPL）、Deno（MIT），其 SHA256 与上游发布一致，本仓库仅作镜像分发。
+- 本仓库不提供任何账号、授权码或密钥；解析内核与安装包均以原样文件分发。

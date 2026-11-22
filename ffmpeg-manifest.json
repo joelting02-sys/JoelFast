@@ -1,0 +1,29 @@
+{
+  "yt-dlp": {
+    "version": "2026.10.21",
+    "sources": [
+      {
+        "url": "https://github.com/joelting02-sys/JoelFast/releases/download/v5.0.1-joel/yt-dlp_win.zip",
+        "sha256": "a981b50fff6e437576d1c3c8df0680af572028ca12dff5e49435d9d33c98294b"
+      }
+    ]
+  },
+  "ffmpeg": {
+    "version": "master-latest-gpl-2026.10.23",
+    "sources": [
+      {
+        "url": "https://github.com/joelting02-sys/JoelFast/releases/download/v5.0.1-joel/ffmpeg-win64.zip",
+        "sha256": "2353c41981c5c35e747a262b8d37fbc52d77a42669f754456a841ecd8eee2262"
+      }
+    ]
+  },
+  "deno": {
+    "version": "latest-2026.10.23",
+    "sources": [
+      {
+        "url": "https://github.com/joelting02-sys/JoelFast/releases/download/v5.0.1-joel/deno-win64.zip",
+        "sha256": "cba84b26e0df5ae7f74fc66b86a95b866872a86292ebd84fa1e959927edd93bf"
+      }
+    ]
+  }
+}
